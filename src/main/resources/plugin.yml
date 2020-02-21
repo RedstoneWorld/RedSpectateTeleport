@@ -1,0 +1,18 @@
+name: RedSpectateTeleport
+version: ${project.version}
+main: de.redstoneworld.redspectateteleport.RedSpectateTeleport
+api-version: 1.13
+authors: [Phoenix616]
+website: https://redstoneworld.de
+commands:
+  redspectateteleport:
+    aliases: [rst]
+    permission: rwm.spectateteleport.command
+    usage: /<command> reload
+permissions:
+  rwm.spectateteleport.command:
+    default: op
+  rwm.spectateteleport.command.reload:
+    default: false
+  rwm.spectateteleport.use:
+    default: false
